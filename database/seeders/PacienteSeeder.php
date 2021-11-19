@@ -17,7 +17,7 @@ class PacienteSeeder extends Seeder
     {
         DB::table('pacientes')->insert([
         	[
-	        	'nombres' => 'Alex Osca',
+	        	'nombres' => 'Alex Oscar',
 	        	'apellidos' => 'Gamarra Solis',
 	        	'edad' => 28,
 	        	'sexo' => 'Masculino',
